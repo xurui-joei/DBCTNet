@@ -1,0 +1,4 @@
+scipy
+scikit-learn
+einops
+transformers
