@@ -9,7 +9,7 @@ pip install requirements.txt
 sh run.sh
 
 ## Others
-You can add your own HSI dataset to data and revised the train_test.py to train DBCTNet on your own dataset. The weight will be saved at weights/. 
+You can add your own HSI dataset to data/ and revised the train_test.py to train DBCTNet on your own dataset. The weight will be saved at weights/. 
 
 ## Citation
 If you find this project useful for your research or if you use it in your academic projects, we would appreciate it if you could cite it as follows:
