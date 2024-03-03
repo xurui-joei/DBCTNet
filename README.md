@@ -5,7 +5,8 @@
 ## Requirements
 To install the required dependencies, run the following command:
 ``` bash
-pip install requirements.txt
+cd DBCTNet
+pip install -r requirements.txt
 ```
 ## Train and test
 To run the program, execute the script below:
