@@ -152,7 +152,7 @@ batch_size=config['batch_size']
 all_data,all_gt = create_patch(data,gt,patch_size = patch)
 band = all_data.shape[-1]
 classes = int(np.max(np.unique(all_gt)))
-x_train,y_train,x_val,y_val,x_test,y_test,sampler = split_dataset(all_data,all_gt,dataset_name,train_ratio=train_ratio)
+x_train,y_train,x_val,y_val,x_test,y_test,sampler = split_dataset(all_data,all_gt,train_ratio=train_ratio)
 train_ds = to_dataset(x_train,y_train)
 val_ds = to_dataset(x_val,y_val)
 test_ds = to_dataset(x_test,y_test)
