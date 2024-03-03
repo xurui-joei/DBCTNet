@@ -1,7 +1,7 @@
 from sklearn.model_selection import train_test_split
 from collections import Counter
 import numpy as np
-def split_dataset(x,y,dataset_name,train_ratio=0.1):
+def split_dataset(x,y,train_ratio=0.1):
     data_remove_zero = x[y>0,:,:,:]
     label_remove_zero = y[y>0]
     label_remove_zero -= 1
