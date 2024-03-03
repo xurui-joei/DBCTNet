@@ -13,7 +13,6 @@ You can add your own HSI dataset to data/ and revised the train_test.py to train
 
 ## Citation
 If you find this project useful for your research or if you use it in your academic projects, we would appreciate it if you could cite it as follows:
-### BibTeX Entry
 
 ```bibtex
 @ARTICLE{DBCTNet,
