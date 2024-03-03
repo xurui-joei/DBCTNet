@@ -1,6 +1,6 @@
 # DBCTNet
 ## DBCTNet: Double Branch Convolution-Transformer Network for Hyperspectral Image Classification
-"DBCTNet: Double Branch Convolution-Transformer Network for Hyperspectral Image Classification" has been accepted by TGRS in Feb 2024, which is a pytorch implementation of DBCTNet.
+"DBCTNet: Double Branch Convolution-Transformer Network for Hyperspectral Image Classification" has been accepted by TGRS in Feb 2024. This is a pytorch implementation of DBCTNet.
 
 ## Requirements
 To install the required dependencies, please run the following command:
