@@ -3,11 +3,15 @@
 "DBCTNet: Double Branch Convolution-Transformer Network for Hyperspectral Image Classification" has been accepted by TGRS in Feb 2024, which is a pytorch implementation of DBCTNet.
 
 ## Requirements
+To install the required dependencies, run the following command:
+``` bash
 pip install requirements.txt
-
+```
 ## Train and test
+To run the program, execute the script below:
+```bash
 sh run.sh
-
+```
 ## Others
 You can add your own HSI dataset to data/ and revised the train_test.py to train DBCTNet on your own dataset. The weight will be saved at weights/. 
 
