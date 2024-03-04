@@ -17,7 +17,7 @@ sh run.sh
 You can add your own HSI dataset to data/ and modify the train_test.py to train DBCTNet on your own dataset. The weight of model will be saved at weights/. 
 
 ## Citation
-If you find our work useful, we would appreciate it if you could cite it as follows:
+If you find our work useful, please cite it as follows:
 
 ```bibtex
 @ARTICLE{DBCTNet,
